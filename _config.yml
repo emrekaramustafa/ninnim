@@ -1,0 +1,8 @@
+# GitHub Pages (Jekyll) settings. Pages are plain static HTML; Jekyll only copies them.
+# README.md holds publishing notes and the placeholder list, so it is not published.
+# Files and folders that start with "_" (this file, _headers) are never published by Jekyll.
+exclude:
+  - README.md
+# M2: Jekyll skips dot-folders by default; the universal-link / App Link files must be served.
+include:
+  - .well-known

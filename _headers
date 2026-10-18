@@ -1,0 +1,27 @@
+# Security headers for Cloudflare Pages and Netlify (GitHub Pages ignores this file).
+/*
+  Content-Security-Policy: default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+
+/app-ads.txt
+  Content-Type: text/plain; charset=utf-8
+
+/README.md
+  X-Robots-Tag: noindex
+
+# M2: universal links (iOS) and App Links (Android). Apple and Google fetch these
+# over HTTPS without redirects; both must be served as JSON.
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+
+/.well-known/assetlinks.json
+  Content-Type: application/json
+
+# M2: landing page of shared links (the payload is in the query): not indexed.
+/s/*
+  X-Robots-Tag: noindex
+
+/tr/s/*
+  X-Robots-Tag: noindex

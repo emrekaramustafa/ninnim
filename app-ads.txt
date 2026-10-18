@@ -1,0 +1,11 @@
+# app-ads.txt for ninnim.app (Ninnim: Baby Sleep Sounds)
+# Served at https://ninnim.app/app-ads.txt. AdMob reads it from the developer
+# website set in the App Store and Google Play listings, so that website must be
+# exactly https://ninnim.app (no "www").
+#
+# [FOUNDER]: In AdMob open Apps > View all apps > app-ads.txt (or Settings >
+# Account information) and copy your publisher ID. Replace the X's below with it
+# and delete the leading "# " so the line becomes active. The last field
+# (f08c47fec0942fa0) is Google's fixed certification authority ID; keep it.
+#
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["QWXLH56S3F.app.lullora.sleep"],
+        "components": [
+          { "/": "/s", "comment": "Shared mix or routine (?d=…)" },
+          { "/": "/s/*", "comment": "Shared mix or routine (?d=…)" },
+          { "/": "/play/*", "comment": "One-tap start, e.g. /play/last" }
+        ],
+        "appID": "QWXLH56S3F.app.lullora.sleep",
+        "paths": ["/s", "/s/*", "/play/*"]
+      }
+    ]
+  }
+}

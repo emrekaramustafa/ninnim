@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ninnim.app/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ninnim.app/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ninnim.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ninnim.app/"/>
+  </url>
+  <url>
+    <loc>https://ninnim.app/tr/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ninnim.app/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ninnim.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ninnim.app/"/>
+  </url>
+  <url>
+    <loc>https://ninnim.app/support/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ninnim.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ninnim.app/tr/destek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ninnim.app/support/"/>
+  </url>
+  <url>
+    <loc>https://ninnim.app/tr/destek/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ninnim.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ninnim.app/tr/destek/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ninnim.app/support/"/>
+  </url>
+  <url>
+    <loc>https://ninnim.app/privacy/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ninnim.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ninnim.app/tr/gizlilik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ninnim.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://ninnim.app/tr/gizlilik/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ninnim.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ninnim.app/tr/gizlilik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ninnim.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://ninnim.app/terms/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ninnim.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ninnim.app/tr/kosullar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ninnim.app/terms/"/>
+  </url>
+  <url>
+    <loc>https://ninnim.app/tr/kosullar/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ninnim.app/terms/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://ninnim.app/tr/kosullar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ninnim.app/terms/"/>
+  </url>
+</urlset>

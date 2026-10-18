@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.ninnim.sleep",
+      "sha256_cert_fingerprints": [
+        "[FOUNDER: release SHA-256]",
+        "94:FC:1F:C7:52:D1:3F:1F:DC:75:C9:E6:A8:03:B7:96:18:47:DD:B1:A5:6E:77:93:54:22:ED:89:D8:18:FD:2C"
+      ]
+    }
+  }
+]
