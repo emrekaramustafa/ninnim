@@ -167,6 +167,8 @@ Dosyayı doğrudan (`file://`) açarsanız klasör bağlantıları `index.html` 
 
 ## 6. Yayınlama
 
+> **Şu an yayında (18 Ekim 2026):** GitHub Pages, depo [`emrekaramustafa/ninnim`](https://github.com/emrekaramustafa/ninnim) (herkese açık) → **https://emrekaramustafa.github.io/ninnim/**. Alan adı alınana kadar yayın kopyasında `CNAME` yok; 404 sayfasının bağlantıları `/ninnim/` yoluna göre yazılır. Güncellemek için: `python3 -I tools/site/build_site.py . && python3 -I tools/site/check_site.py site && tools/site/publish_pages.sh`. ninnim.app alınıp DNS GitHub'a yönlendirildikten sonra: `tools/site/publish_pages.sh --domain` ve depo › Settings › Pages › Custom domain = `ninnim.app`, "Enforce HTTPS" açık.
+
 Üç seçenek de ücretsiz ve HTTPS'i kendisi kurar. **Öneri: GitHub Pages.**
 
 ### Seçenek A: GitHub Pages

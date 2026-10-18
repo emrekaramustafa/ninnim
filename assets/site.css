@@ -373,36 +373,14 @@ strong {
   background: var(--art-sky);
 }
 
-.hero-art span {
+/* Since 18 Oct 2026: the founder's mother-and-baby art (the app icon). */
+.hero-art img {
   position: absolute;
-  display: block;
-}
-
-.sun {
-  width: 32%;
-  aspect-ratio: 1;
-  left: 44%;
-  top: 22%;
-  border-radius: 50%;
-  background: var(--accent);
-}
-
-.hill-back {
-  width: 150%;
-  height: 70%;
-  left: -25%;
-  top: 58%;
-  border-radius: 48% 52% 58% 42% / 52% 46% 54% 48%;
-  background: var(--sage);
-}
-
-.hill-front {
-  width: 170%;
-  height: 70%;
-  left: -40%;
-  top: 74%;
-  border-radius: 58% 42% 46% 54% / 44% 56% 44% 56%;
-  background: var(--lagoon);
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 38%;
 }
 
 @media (min-width: 52rem) {
