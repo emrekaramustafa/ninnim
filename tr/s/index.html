@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; script-src 'self'">
 <title>Ninnim&#x27;de açın</title>
 <meta name="description" content="Ninnim&#x27;den paylaşılan bir uyku karışımı ya da rutini. Uygulamada açın ya da Ninnim&#x27;i indirin.">
 <meta name="robots" content="noindex">
@@ -13,6 +13,7 @@
 <link rel="icon" type="image/png" href="../../assets/favicon.png">
 <link rel="apple-touch-icon" href="../../assets/icon-512.png">
 <link rel="stylesheet" href="../../assets/site.css">
+<script src="../../assets/open-share.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">İçeriğe geç</a>
@@ -34,16 +35,15 @@
   <div class="hero-text">
     <p class="eyebrow">Ninnim'den paylaşıldı</p>
     <h1 id="hero-title">Size bir uyku karışımı ya da rutini gönderildi.</h1>
-    <p class="lead">Ninnim yüklüyse bu bağlantı doğrudan uygulamada açılır. Bir şey eklenmeden önce neyin paylaşıldığını, sesleri ve sürelerini görürsünüz. Bu sayfayı görüyorsanız Ninnim bu telefonda henüz yüklü değil ya da bağlantı tarayıcıda açıldı.</p>
+    <p class="lead">Neyin paylaşıldığını, sesleri ve sürelerini bir şey eklenmeden önce görmek için “Ninnim’de aç”a dokunun. Ninnim henüz yüklü değil mi? Uygulama mağazanızdan indirin, sonra bu bağlantıya geri dönün.</p>
     <ol class="share-steps">
       <li>Ninnim'i uygulama mağazanızdan indirin.</li>
-      <li>Size gönderilen bağlantıya yeniden dokunun. Artık Ninnim'de açılır.</li>
-      <li>Hâlâ tarayıcıda mı açılıyor? Bağlantıyı kopyalayın, ardından Ninnim'de Kitaplık › Karışımlar › “Paylaşılan bağlantıyı aç” bölümüne yapıştırın.</li>
+      <li>Bu sayfaya geri dönüp “Ninnim’de aç”a dokunun.</li>
+      <li>Açılmadı mı? Bağlantıyı kopyalayın, ardından Ninnim'de Kitaplık › Karışımlar › “Paylaşılan bağlantıyı aç” bölümüne yapıştırın.</li>
     </ol>
-    <!-- [FOUNDER: App Store URL] idFOUNDER_APP_STORE_ID yerine App Store Connect › App Information'daki sayısal Apple ID yazılır (tr/index.html ile aynı). -->
     <ul class="store-links" aria-label="Ninnim'i açın ya da indirin">
-      <li><a class="store-link is-primary" href="ninnim://">Ninnim'i aç</a></li>
-      <li><a class="store-link" href="https://apps.apple.com/tr/app/idFOUNDER_APP_STORE_ID">App Store'dan indirin</a></li>
+      <li><a class="store-link is-primary" id="open-app" href="ninnim://">Ninnim’de aç</a></li>
+      <li><a class="store-link" href="https://apps.apple.com/tr/app/id6825035449">App Store'dan indirin</a></li>
       <li><a class="store-link" href="https://play.google.com/store/apps/details?id=app.ninnim.sleep&amp;hl=tr">Google Play'den edinin</a></li>
     </ul>
     <p class="note">Bağlantı yalnızca ses adlarını, ses düzeylerini ve süreleri içerir. Hiçbir şey yüklenmez; bu sayfa başka hiçbir yerden bir şey yüklemez.</p>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; script-src 'self'">
 <title>Open in Ninnim</title>
 <meta name="description" content="A sleep mix or routine shared from Ninnim. Open it in the app or get Ninnim.">
 <meta name="robots" content="noindex">
@@ -13,6 +13,7 @@
 <link rel="icon" type="image/png" href="../assets/favicon.png">
 <link rel="apple-touch-icon" href="../assets/icon-512.png">
 <link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/open-share.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -34,16 +35,15 @@
   <div class="hero-text">
     <p class="eyebrow">Shared from Ninnim</p>
     <h1 id="hero-title">Someone shared a sleep mix or routine with you.</h1>
-    <p class="lead">When Ninnim is installed, this link opens right in the app. You see what was shared, the sounds and their lengths, before anything is added. If you are reading this page, Ninnim is not on this phone yet or the link opened in a browser.</p>
+    <p class="lead">Tap “Open in Ninnim” to see what was shared, the sounds and their lengths, before anything is added. Don’t have Ninnim yet? Get it from your app store, then come back to this link.</p>
     <ol class="share-steps">
       <li>Get Ninnim from your app store.</li>
-      <li>Tap the link you were sent once more. It now opens in Ninnim.</li>
-      <li>Still in the browser? Copy the link, then in Ninnim open Library › Mixes › “Open a shared link” and paste it.</li>
+      <li>Come back to this page and tap “Open in Ninnim”.</li>
+      <li>Nothing opened? Copy the link, then in Ninnim open Library › Mixes › “Open a shared link” and paste it.</li>
     </ol>
-    <!-- [FOUNDER: App Store URL] Replace idFOUNDER_APP_STORE_ID with the numeric Apple ID from App Store Connect › App Information (same as index.html). -->
     <ul class="store-links" aria-label="Open or get Ninnim">
-      <li><a class="store-link is-primary" href="ninnim://">Open Ninnim</a></li>
-      <li><a class="store-link" href="https://apps.apple.com/app/idFOUNDER_APP_STORE_ID">Download on the App Store</a></li>
+      <li><a class="store-link is-primary" id="open-app" href="ninnim://">Open in Ninnim</a></li>
+      <li><a class="store-link" href="https://apps.apple.com/app/id6825035449">Download on the App Store</a></li>
       <li><a class="store-link" href="https://play.google.com/store/apps/details?id=app.ninnim.sleep">Get it on Google Play</a></li>
     </ul>
     <p class="note">The link only holds sound names, volumes and lengths. Nothing is uploaded, and this page loads nothing from anywhere else.</p>
